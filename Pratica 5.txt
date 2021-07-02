@@ -1,0 +1,16 @@
+//Pratica 5
+void main() {
+print("Exemplo 1");
+double nota1 = 5.9;
+double nota2 = 9.4;
+double nota3 = 6.1;
+double media;
+  
+media = (nota1+nota2+nota3)/3;
+  
+if(media >= 7 ){
+  print("Aprovado\n"); 
+}else{
+  print("Reprovada\n");
+}
+}

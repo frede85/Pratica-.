@@ -1,0 +1,20 @@
+//Pratica 4
+void main() {
+
+  print("Exemplo 1");
+  double nota1 = 6.1;
+  double media1 = 6;
+  if(nota1 > media1){
+    print("A media é maior");
+  }else if(nota1 < media1){
+    print("A media é menor");
+  }else{
+    print("A media é igual");
+  }
+  
+  if(nota1 < 6){
+    print("Reprovado\n");
+  }else{
+    print("Aprovado\n");
+  }
+}

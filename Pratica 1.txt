@@ -1,0 +1,19 @@
+//Pratica 1
+void main() {
+  print("Exemplo 1");
+  int numeros_negativos = -3;
+  if(numeros_negativos <= 0){
+    print("O numero é negativo\n");
+  }else
+  print("O numero é positivo\n");
+  
+  
+  
+  print("Exemplo 2");
+  int numeros_positivo = 3;
+  if(numeros_positivo <= 0){
+    print("O numero é negativo");
+  }else
+  print("O numero é positivo");
+  
+}

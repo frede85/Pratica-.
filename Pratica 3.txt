@@ -1,0 +1,24 @@
+//Pratica 3
+void main() {
+  int a = 2;
+  int b = 4;
+  int c = 5;
+  int total;
+  double total2;
+  
+  total = (a + b * c);
+  total2 = (b / a * c);
+  
+  print("a) a + b * c");
+  print("Total: $total");
+  
+  print("b) b / a * c");
+  print("Total $total2\n");
+  
+  if(total == total2){
+    print("Os resultados são iguais: $total $total2");
+  }else{
+    print("Os resultados não são iguais:\n total a)$total\n total b)$total2");
+  }
+ 
+}

@@ -1,0 +1,17 @@
+//Pratica 9
+void main() {
+  int idade = 15;
+    
+    print("Categoria:\n");
+    
+    if(idade <= 12){
+      print("Crianças");
+    }else if(idade >= 13 && idade <= 21){
+      print("Jovens");
+    }else if(idade >= 22 && idade <= 59){
+      print("Adultos");
+    }else{
+      print("Terceira idade");
+    }
+  
+}

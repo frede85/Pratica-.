@@ -1,0 +1,14 @@
+//Pratica 11
+void main() {
+
+  double salario = 2500;
+  double tempo_impresa = 5;
+  double dissidio = 0.04;
+  double total;
+  total = (salario * dissidio + salario);
+ if(tempo_impresa >= 1){
+   print("Aqui esta seu novo salario: £$total");
+ }else{
+   print("Funcionário com menos de 1 ano de empresa");
+ }
+}

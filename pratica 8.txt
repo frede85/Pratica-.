@@ -1,0 +1,16 @@
+//Pratica 8
+void main() {
+ 
+    
+    double saque = 1000;
+    double saldo = 2000;
+    double saldo_atual;
+  saldo_atual = (saldo-saque);
+  
+  print("Saldo Atual: €$saldo\n");
+  if(saldo_atual <= 2000){
+    print("Saque efetuado com sucesso agora você tem: €$saldo_atual");
+  }else{
+    print("Saldo indisponível voce tem apenas: €$saldo");
+  }
+}

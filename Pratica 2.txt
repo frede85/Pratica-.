@@ -1,0 +1,14 @@
+//Pratica 2
+void main() {
+
+  print("Exemplo 1");
+  int numero1 = 6;
+  int numro2 = 7;
+  if(numero1 > numro2){
+    print("O primeiro é maior que o segundo\n");
+  }else if(numero1 < numro2){
+    print("O primeiro é menor que o segundo\n");
+  }else if(numero1 == numro2){
+    print("O primeiro é igual ao segundo\n");
+  }
+}

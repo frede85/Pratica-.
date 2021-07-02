@@ -1,0 +1,15 @@
+//Pratica 10
+void main() {
+  int peso = 55;
+    
+    if(peso <=60){
+      print("Tamanho ideal: P");
+    }else if(peso >= 61 && peso <= 74){
+      print("Tamanho ideal: M");
+    }else if(peso >= 75 && peso <= 85){
+      print("Tamanho ideal: G");
+    }else{
+      print("Tamanho ideal: GG");
+    }
+  
+}
